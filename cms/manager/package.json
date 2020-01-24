@@ -1,0 +1,32 @@
+{
+    "name": "@smogon/cms-manager",
+    "license": "MIT",
+    "version": "0.0.1",
+    "dependencies": {
+        "@esm/ms": "^2.1.0",
+        "@smogon/rpc-client": "workspace:^0.0.1",
+        "preact": "^10.3.4",
+        "preact-router": "^3.2.1"
+    },
+    "scripts": {
+        "build:ts": "tsc --build",
+        "build:css": "broccoli build --output-path=build --brocfile-path=Brocfile.cjs",
+        "build:import-map": "node tools/gen-import-map.js",
+        "build:misc": "mkdir -p build && ln -sfn ../index.html build/index.html && ln -sfn ../node_modules build/node_modules",
+        "start": "es-dev-server --open --config es-dev-server.config.cjs"
+    },
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "@jsenv/node-module-import-map": "^11.1.0",
+        "broccoli": "^3.4.1",
+        "broccoli-cli": "^1.0.0",
+        "broccoli-css-modules": "^0.7.0",
+        "broccoli-funnel": "^3.0.2",
+        "broccoli-merge-trees": "^4.2.0",
+        "broccoli-plugin": "^4.0.2",
+        "broccoli-typescript-compiler": "^5.0.0",
+        "koa-proxies": "^0.11.0",
+        "postcss-nested": "^4.2.1"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig-base",
+    "compilerOptions": {
+        "outDir": "./build"
+    },
+    "references": [
+        {"path": "../lib"},
+        {"path": "../../rpc/server"},
+    ]
+}

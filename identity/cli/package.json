@@ -1,0 +1,17 @@
+{
+    "name": "@smogon/identity-cli",
+    "license": "MIT",
+    "version": "0.0.1",
+    "dependencies": {
+        "@smogon/identity": "0.0.1",
+        "@types/node": "^13.7.0",
+        "commander": "^4.1.1",
+        "make-promises-safe": "^5.1.0",
+        "source-map-support": "^0.5.16"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "type": "module",
+    "private": true
+}

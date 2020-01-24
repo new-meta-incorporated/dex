@@ -1,0 +1,15 @@
+
+.row {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 0.3em 0.5em;
+    margin: 0.5em 0;
+
+}
+
+.summary {
+    a {
+        font-size: 150%;
+        font-weight: bold;
+    }
+}

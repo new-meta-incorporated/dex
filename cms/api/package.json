@@ -1,0 +1,26 @@
+{
+    "name": "@smogon/cms-api",
+    "license": "MIT",
+    "version": "0.0.1",
+    "dependencies": {
+        "@smogon/cms": "0.0.1",
+        "@smogon/identity": "workspace:^0.0.1",
+        "@smogon/rpc-server": "workspace:^0.0.1",
+        "@types/koa": "^2.11.2",
+        "@types/koa-mount": "^4.0.0",
+        "@types/node": "^13.7.0",
+        "commander": "^4.1.1",
+        "koa": "^2.11.0",
+        "koa-mount": "^4.0.0",
+        "make-promises-safe": "^5.1.0",
+        "source-map-support": "^0.5.16"
+    },
+    "scripts": {
+        "build": "tsc --build"
+    },
+    "type": "module",
+    "private": true,
+    "devDependencies": {
+        "@smogon/infra": "^0.0.3"
+    }
+}

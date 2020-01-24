@@ -1,0 +1,12 @@
+{
+    "files": [],
+    "references": [
+        {"path": "./cms/lib"},
+        {"path": "./cms/cli"},
+        {"path": "./cms/api"},
+        {"path": "./identity/lib"},
+        {"path": "./identity/cli"},
+        {"path": "./rpc/client"},
+        {"path": "./rpc/server"},
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "@smogon/rpc-client",
+    "license": "MIT",
+    "version": "0.0.1",
+    "dependencies": {},
+    "scripts": {
+        "build": "tsc --build"
+    },
+    "private": true,
+    "type": "module",
+    "main": "./build/index.js"
+}

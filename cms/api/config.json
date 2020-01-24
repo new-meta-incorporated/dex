@@ -1,0 +1,7 @@
+
+{
+    type: 'js',
+    buildDir: 'build',
+    buildCmd: 'pnpm run build',
+    entryPoint: 'build/index.js'
+}

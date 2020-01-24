@@ -1,0 +1,19 @@
+{
+    "name": "@smogon/router",
+    "license": "MIT",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "tsc --build"
+    },
+    "private": true,
+    "type": "module",
+    "main": "./build/index.js",
+    "devDependencies": {
+        "preact": "^10.4.0",
+        "route-recognizer": "^0.3.4"
+    },
+    "peerDependencies": {
+        "preact": "^10.4.0",
+        "route-recognizer": "^0.3.4"
+    }
+}

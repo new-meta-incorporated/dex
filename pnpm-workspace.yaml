@@ -1,0 +1,10 @@
+packages:
+    - 'identity/lib'
+    - 'identity/cli'
+    - 'cms/cli'
+    - 'cms/lib'
+    - 'cms/api'
+    - 'cms/manager'
+    - 'cms/test'
+    - 'rpc/server'
+    - 'rpc/client'

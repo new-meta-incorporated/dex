@@ -1,0 +1,27 @@
+{
+    "name": "@smogon/cms",
+    "license": "MIT",
+    "version": "0.0.1",
+    "dependencies": {
+        "@types/js-yaml": "^3.12.2",
+        "@types/node": "^13.7.1",
+        "@types/pg": "^7.14.1",
+        "@types/pg-copy-streams": "^1.2.1",
+        "@types/uuid": "^3.4.7",
+        "difflib": "^0.2.4",
+        "js-yaml": "^3.13.1",
+        "pg": "^7.18.1",
+        "pg-copy-streams": "^2.2.2",
+        "sql-template-strings": "^2.2.2",
+        "uuid": "^3.4.0"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "private": true,
+    "type": "module",
+    "exports": {
+        ".": "./build/index.js",
+        "./": "./build/"
+    }
+}

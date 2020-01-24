@@ -1,0 +1,20 @@
+{
+    "name": "@smogon/identity",
+    "license": "MIT",
+    "version": "0.0.1",
+    "dependencies": {
+        "@types/mysql2": "types/mysql2",
+        "@types/node": "^13.1.8",
+        "mysql2": "^2.1.0",
+        "sql-template-strings": "^2.2.2"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "type": "module",
+    "private": true,
+    "exports": {
+        ".": "./build/index.js",
+        "./": "./build/"
+    }
+}
