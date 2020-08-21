@@ -1,7 +1,7 @@
 
 import pg from 'pg';
 import {Buildable} from './common.js';
-export {User, Args} from './common.js';
+export type {User, Args} from './common.js';
 import * as patch from './patch.js';
 export * from './patch.js';
 import * as revision from './revision.js';
